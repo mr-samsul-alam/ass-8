@@ -1,67 +1,67 @@
 [
     {
         "_id": "614f6337109a6b918d5eb7f6",
-        "index": 0,
-        "name": "Sundar Pichai",
+        "key": 0,
+        "name": "Diwankar Nighami",
         "honorarium": 10000,
-        "picture": "https://www.gizmochina.com/wp-content/uploads/2020/11/Sundar-Pichai.jpg",
+        "picture":"https://www.thesoftwarereport.com/wp-content/uploads/2020/11/24.-Diwakar-Niga-300x300.jpg",
         "gender": "male",
-        "company": "GOOGLE",
+        "company": "Newgen Software Technologies",
         "designation": "CEO"
     },
     {
         "_id": "614f63371fc4466603f3ce38",
-        "index": 1,
-        "name": "Rajesh Gopinathan",
+        "key": 1,
+        "name": " Wayne Wang",
         "honorarium": 5000,
-        "picture": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Rajesh_Gopinathan.png",
+        "picture": "https://www.thesoftwarereport.com/wp-content/uploads/2020/11/25.-Wayne-Wang-300x300.png",
         "gender": "male",
-        "company": "Tata Consultancy Services (TCS)",
-        "designation": "CEO and Managing Director"
+        "company": " CDP Group",
+        "designation": "CEO"
     },
     {
         "_id": "614f6337c80781eaf54eb8e5",
-        "index": 2,
-        "name": "Thierry Delaporte",
+        "key": 2,
+        "name": "Raheel Iqbal",
         "honorarium": 3000,
-        "picture": "https://www.thehindubusinessline.com/companies/xnkg8a/article34783067.ece/ALTERNATES/PORTRAIT_355/bl11delaporte",
+        "picture": "https://www.thesoftwarereport.com/wp-content/uploads/2020/11/23.-Raheel-Iqbal-300x300.jpg",
         "gender": "male",
-        "company": "Wipro",
-        "designation": "CEO/Managing Director"
+        "company": " Codebase Technologies",
+        "designation": "CEO"
     },
     {
         "_id": "614f6337120694fab95036d9",
-        "index": 3,
-        "name": "Jawed Karim",
+        "key": 3,
+        "name": "Dhiraj Rajaram",
         "honorarium": 7000,
-        "picture": "https://upload.wikimedia.org/wikipedia/commons/2/24/Jawed_Karim_2008.jpg",
+        "picture": "https://www.thesoftwarereport.com/wp-content/uploads/2020/11/22.-Dhiraj-Rajaram-300x300.jpg",
         "gender": "male",
-        "company": "Youtube",
-        "designation": "co-founder"
+        "company": "Mu Sigma",
+        "designation": "CEO"
     },
     {
         "_id": "614f633777cd3f059fe60f6d",
-        "index": 4,
-        "name": "Jeff Bezos",
+        "key": 4,
+        "name": "Shyamal Kumar",
         "honorarium": 8000,
-        "picture": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Jeff_Bezos_at_Amazon_Spheres_Grand_Opening_in_Seattle_-_2018_%2839074799225%29_%28cropped%29.jpg",
+        "picture": "https://www.thesoftwarereport.com/wp-content/uploads/2020/11/21.-Shyamal-Kumar-1-300x300.jpg",
         "gender": "male",
-        "company": "Amazon",
-        "designation": "Founder and Executive chairman "
+        "company": "Lavelle Networks",
+        "designation": "CEO "
     },
     {
         "_id": "614f6337168f437a710f9198",
-        "index": 5,
-        "name": "Bob Smith",
+        "key": 5,
+        "name": "Dai Wenyuan",
         "honorarium": 6000,
-        "picture": "https://www.ae.utexas.edu/images/stories/ADA/bob-smith-ada-web.jpg",
+        "picture": "https://www.thesoftwarereport.com/wp-content/uploads/2020/11/20.-Dai-Wenyuan-300x300.png",
         "gender": "male",
-        "company": "Blue Origin",
+        "company": "4Paradigm",
         "designation": "CEO"
     },
     {
         "_id": "614f633757b31c7fefa18bc4",
-        "index": 6,
+        "key": 6,
         "name": "Emmanuel Benzaquen",
         "honorarium": 3000,
         "picture": "https://www.thesoftwarereport.com/wp-content/uploads/2020/11/5.-Emmanuel-Benzaquen-300x300.jpg",
@@ -71,7 +71,7 @@
     },
     {
         "_id": "614f6337171629bbeefaeace",
-        "index": 7,
+        "key": 7,
         "name": "Kushal Nahata",
         "honorarium": 2000,
         "picture": "https://www.thesoftwarereport.com/wp-content/uploads/2020/11/4.-Kushal-Nahata-300x300.png",
@@ -81,7 +81,7 @@
     },
     {
         "_id": "614f633757a87b4f85df6887",
-        "index": 8,
+        "key": 8,
         "name": "Siddhartha Gupta",
         "honorarium": 1000,
         "picture": "https://www.thesoftwarereport.com/wp-content/uploads/2020/11/3.-Siddhartha-Gupta-300x300.jpg",
@@ -91,7 +91,7 @@
     },
     {
         "_id": "614f6337718e5fcce4d58653",
-        "index": 9,
+        "key": 9,
         "name": "Liu Qingfeng",
         "honorarium": 4000,
         "picture": "https://www.thesoftwarereport.com/wp-content/uploads/2020/11/2.-Liu-Qingfeng-300x300.jpg",
@@ -101,7 +101,7 @@
     },
     {
         "_id": "614f6337d7c8843495720cf5",
-        "index": 10,
+        "key": 10,
         "name": "Li Xu",
         "honorarium": 3000,
         "picture": "https://www.thesoftwarereport.com/wp-content/uploads/2020/11/1.-Li-Xu-300x300.jpg",
@@ -111,7 +111,7 @@
     },
     {
         "_id": "614f6337e32229aec24d1d92",
-        "index": 11,
+        "key": 11,
         "name": "Linus Torvalds",
         "honorarium": 4000,
         "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxz8qDrWrOGEKVVZAViqMkIQwv1VVZdnVYJQ&usqp=CAU",
@@ -121,7 +121,7 @@
     },
     {
         "_id": "614f63378f0b196406784080",
-        "index": 12,
+        "key": 12,
         "name": "Amit Jain",
         "honorarium": 5000,
         "picture": "https://www.thesoftwarereport.com/wp-content/uploads/2020/11/6.-Amit-Jain-300x300.jpg",
@@ -131,7 +131,7 @@
     },
     {
         "_id": "614f63370c2d9291b0a980d2",
-        "index": 13,
+        "key": 13,
         "name": "Tomer Bar-Zeev",
         "honorarium": 3000,
         "picture": "https://www.thesoftwarereport.com/wp-content/uploads/2020/11/10.-Tomer-Bar-Zeev-300x300.png",
@@ -141,7 +141,7 @@
     },
     {
         "_id": "614f63379fe55e25b2caf200",
-        "index": 14,
+        "key": 14,
         "name": "Dennis Ritchie",
         "honorarium": 2000,
         "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJm36ZUU9sQVQogbGu41yi6Pb32HskyxNsXQ&usqp=CAU",
@@ -150,3 +150,8 @@
         "designation": "INSECTUS"
     }
 ]
+ 
+ 
+ 
+
+

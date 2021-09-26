@@ -9,17 +9,17 @@ const Person = (props) => {
     const element = <FontAwesomeIcon icon={faUser} />
     return (
         <div className ="col-md-4 ">
-            <div className="card mb-3 ">
-                <div className="col g-0">
+            <div className="card mb-3">
+                <div className="col g-0 ">
                     <img src={picture} className=" avatar rounded-circle mt-4
                         card-img-top " style={{ "width": "200px" }} alt="..." />
                     <div className="card-body ">
-                        <h2 className="card-title">Name: {name}</h2>
-                        <h4>Designation: {designation}</h4>
+                        <h4 className="card-title">Name: {name}</h4>
+                        <h5>Designation: {designation}</h5>
                         <h5>Company: {company}</h5>
-                        <h6>Gender: {gender}</h6>
-                        <h6>Honorarium:${honorarium}</h6>
-                        <button onClick={() => props.handleAddPerson(props.person)} className="btn btn-primary">{element} Invite</button>
+                        <h5>Gender: {gender}</h5>
+                        <h5>Honorarium:${honorarium}</h5>
+                        <button onClick={() => props.handleAddPerson(props.person)} className="btn btn-color text-white">{element} Invite</button>
                     </div>
 
                 </div>

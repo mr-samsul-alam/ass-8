@@ -6,6 +6,7 @@ const AllPerson = () => {
     const [persons, setPerson] = useState([])
     // cart a add korar jonno state
     const [cart, setCart] = useState([])
+    
     const handleAddPerson = (person) => {
         const newPerson = [...cart, person]
         setCart(newPerson)
@@ -17,7 +18,7 @@ const AllPerson = () => {
             .then(data => setPerson(data))
     }, [])
     return (
-        <div>
+        <div className="container">
             <div className="row">
                 <div className="col-md-9">
 
@@ -27,7 +28,7 @@ const AllPerson = () => {
 
 
                                 <Person
-                                key={person.index}
+                                    key={person.key}
                                     person={person}
                                     handleAddPerson={handleAddPerson}
                                 >
@@ -37,12 +38,12 @@ const AllPerson = () => {
                         }
 
                     </div>
-                    {/* akhane card add korbo  */}
+                    {/* akhane cart add korbo  */}
 
 
                 </div>
+               
                 <div className="col-md-3">
-                    {/* akhane amra card calculation korbo  */}
                     <Cart
                         cart={cart}
 
