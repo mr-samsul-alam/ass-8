@@ -14,6 +14,7 @@ const Cart = (props) => {
                 cart.map(person => <li><b>{person.name} </b></li>)
             }
             </ul>
+            <button className="btn btn-color text-white">Invited All</button>
         </div>
     );
 };
