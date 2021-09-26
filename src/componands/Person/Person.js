@@ -2,8 +2,6 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUser } from '@fortawesome/free-solid-svg-icons'
 import './Person.css'
-
-
 const Person = (props) => {
     const { name, picture, designation, company, gender, honorarium } = props.person;
     const element = <FontAwesomeIcon icon={faUser} />

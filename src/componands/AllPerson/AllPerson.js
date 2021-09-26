@@ -11,7 +11,7 @@ const AllPerson = () => {
         const newPerson = [...cart, person]
         setCart(newPerson)
     }
-
+// data are loading here
     useEffect(() => {
         fetch("/fakePersondb.json")
             .then(res => res.json())
@@ -21,32 +21,24 @@ const AllPerson = () => {
         <div className="container">
             <div className="row">
                 <div className="col-md-9">
-
+{/* single person's data are going to person component */}
                     <div className="row ">
                         {
                             persons.map(person =>
-
-
                                 <Person
                                     key={person.key}
                                     person={person}
                                     handleAddPerson={handleAddPerson}
                                 >
-
                                 </Person>
                             )
                         }
-
                     </div>
-                    {/* akhane cart add korbo  */}
-
-
                 </div>
-               
+                 {/* data are going to cart component */}
                 <div className="col-md-3">
                     <Cart
                         cart={cart}
-
                     ></Cart>
 
                 </div>
