@@ -8,6 +8,7 @@ const Cart = (props) => {
         <div>
             <h3><i className="fas fa-user-check"></i> Person Added : {cart.length}</h3>
             <h2>Total Cost: {total}</h2>
+            <h2 className="text-warning"> Selected Person list</h2>
             <ul> 
             {
                 cart.map(person => <li><b>{person.name} </b></li>)
