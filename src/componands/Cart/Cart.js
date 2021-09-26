@@ -7,13 +7,13 @@ const Cart = (props) => {
     return (
         <div>
             <h3><i className="fas fa-user-check"></i> Person Added : {cart.length}</h3>
-            <h2>Total Cost: {total}</h2>
-            <h2> Selected Person list</h2>
+            <h4> Selected Person list</h4>
             <ul> 
             {
                 cart.map(person => <li><b>{person.name} </b></li>)
             }
             </ul>
+            <h4>Total Cost:${total}</h4>
             <button className="btn btn-color text-white">Invited All</button>
         </div>
     );
